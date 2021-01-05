@@ -41,4 +41,4 @@ class S3DirectoryGenerator(object):
                 # we assume the S3 prefix is a directory that wasn't terminated with a '/'
                 path.pop(0)
 
-            yield (path, o.size)
+            yield (path, o.size, o.last_modified)
