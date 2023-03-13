@@ -1,5 +1,5 @@
 import urllib.parse
-import boto3
+from . import myboto3 as boto3
 
 class S3DirectoryGenerator(object):
     def __init__(self, s3_url):
