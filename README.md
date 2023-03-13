@@ -5,7 +5,7 @@ This tool generates [ncdu](http://dev.yorhel.nl/ncdu) formatted JSON data file f
 
 # Usage
 ```bash
-$ sudo pip install ncdu-s3
+$ (cd ncdu-s3; sudo pip install .)
 $ ncdu-s3 s3://my-bucket my-bucket.json
 $ ncdu -f my-bucket.json
 ```
